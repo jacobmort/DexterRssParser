@@ -13,7 +13,7 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "urls",
+            "id": "url",
             "title":"urls",
             "type":"array"
         }
