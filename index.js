@@ -19,7 +19,7 @@ module.exports = {
                 //Extract dexter-friendly data from the items
                 _.each(items, function(item) {
                     response.push(
-                      url
+                      item.link
                       //{
                       //  url: item.link,
                       //  title: item.title,
