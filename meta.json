@@ -4,25 +4,19 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From",
+            "id": "url",
+            "title":"rss url",
             "type":"string"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From",
+            "id": "results",
+            "title":"urls",
             "type":"array"
         }
-      */
     ],
-    "title": "feedparser" /* Required.A display name for the module */
+    "title": "rssfeedparser" /* Required.A display name for the module */
 }
